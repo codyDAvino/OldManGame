@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d132e2-f5b4-4056-889e-f6d75a9d680c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OldManGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OldManGame/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OldManGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OldManGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Interact.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Interact.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Walking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Walking.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Walking.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Walking.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/temporary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/temporary.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,13 +25,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Walking.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/CompletePlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="510">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding>
-                <marker date="1555013692437" expanded="true" signature="56:472" ph="{...}" />
-                <marker date="1555013692437" expanded="true" signature="147:204" ph="{...}" />
-                <marker date="1555013692437" expanded="true" signature="227:470" ph="{...}" />
+                <marker date="1559764595813" expanded="true" signature="74:1214" ph="{...}" />
+                <marker date="1559764595813" expanded="true" signature="347:495" ph="{...}" />
+                <marker date="1559764595813" expanded="true" signature="624:1212" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -33,19 +44,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Walking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CompletePlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Turning.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Interact.cs" />
+        <option value="$PROJECT_DIR$/Assets/Interactable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Jump.cs" />
         <option value="$PROJECT_DIR$/Assets/Walking.cs" />
+        <option value="$PROJECT_DIR$/Assets/Move2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/MoveRacket.cs" />
+        <option value="$PROJECT_DIR$/Assets/CompletePlayerController.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1592" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
+    <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -54,15 +72,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Packages" type="4e2708dd:PackagesRoot" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -111,11 +142,23 @@
       <workItem from="1555011977525" duration="7000" />
       <workItem from="1555013586292" duration="673000" />
       <workItem from="1555015455689" duration="599000" />
+      <workItem from="1555358335114" duration="432000" />
+      <workItem from="1555532754214" duration="1129000" />
+      <workItem from="1555700812198" duration="998000" />
+      <workItem from="1555704870353" duration="605000" />
+      <workItem from="1556222106129" duration="140000" />
+      <workItem from="1556222325682" duration="673000" />
+      <workItem from="1556570922256" duration="544000" />
+      <workItem from="1559073416828" duration="1401000" />
+      <workItem from="1559247266784" duration="721000" />
+      <workItem from="1559594211239" duration="109000" />
+      <workItem from="1559764438501" duration="994000" />
+      <workItem from="1559766375457" duration="609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1279000" />
+    <option name="totallyTimeSpent" value="9634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -127,9 +170,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25716332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33868894" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -147,7 +190,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Unity" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -173,13 +216,32 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Walking.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Interactable.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Jump.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Turning.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="272">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <marker date="1555013692437" expanded="true" signature="56:472" ph="{...}" />
-            <marker date="1555013692437" expanded="true" signature="147:204" ph="{...}" />
-            <marker date="1555013692437" expanded="true" signature="227:470" ph="{...}" />
+            <marker date="1556570766865" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556570766865" expanded="true" signature="116:290" ph="{...}" />
+            <marker date="1556570766865" expanded="true" signature="188:209" ph="{...}" />
+            <marker date="1556570766865" expanded="true" signature="267:288" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Walking.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Walk.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Move2D.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/CompletePlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <marker date="1559764595813" expanded="true" signature="74:1214" ph="{...}" />
+            <marker date="1559764595813" expanded="true" signature="347:495" ph="{...}" />
+            <marker date="1559764595813" expanded="true" signature="624:1212" ph="{...}" />
           </folding>
         </state>
       </provider>
